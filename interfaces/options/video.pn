@@ -61,6 +61,25 @@ items:
 		hue:     "pale-purple"
 		style:   "large"
 
+	game-scale/native:
+		type:    "checkbox"
+		bounds:  {left: 100, top: 297, right: 212, bottom: 307}
+		label:   "1:1 Pixels"
+		hue:     "pale-purple"
+		style:   "large"
+	game-scale/whole:
+		type:    "checkbox"
+		bounds:  {left: 272, top: 297, right: 384, bottom: 307}
+		label:   "Whole Scale"
+		hue:     "pale-purple"
+		style:   "large"
+	game-scale/fill:
+		type:    "checkbox"
+		bounds:  {left: 444, top: 297, right: 556, bottom: 307}
+		label:   "Fill Height"
+		hue:     "pale-purple"
+		style:   "large"
+
 	cancel:
 		type:     "button"
 		bounds:   {left: 60, top: 407, right: 220, bottom: 417}
@@ -112,7 +131,13 @@ items:
 
 	video-options:
 		type:    "rect"
-		bounds:  {left: 53, top: 92, right: 588, bottom: 293}
+		bounds:  {left: 53, top: 92, right: 588, bottom: 245}
 		label:   "Video Options"
+		hue:     "indigo"
+		style:   "large"
+	game-scale:
+		type:    "rect"
+		bounds:  {left: 53, top: 278, right: 588, bottom: 320}
+		label:   "Game Scale"
 		hue:     "indigo"
 		style:   "large"
