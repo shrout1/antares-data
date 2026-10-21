@@ -6,6 +6,60 @@ items:
 		label:   "Fullscreen"
 		hue:     "pale-purple"
 		style:   "large"
+	resolution/fill:
+		type:    "checkbox"
+		bounds:  {left: 100, top: 154, right: 212, bottom: 164}
+		label:   "Fill Screen"
+		hue:     "pale-purple"
+		style:   "large"
+	resolution/640x480:
+		type:    "checkbox"
+		bounds:  {left: 272, top: 154, right: 384, bottom: 164}
+		label:   "640 x 480"
+		hue:     "pale-purple"
+		style:   "large"
+	resolution/800x600:
+		type:    "checkbox"
+		bounds:  {left: 444, top: 154, right: 556, bottom: 164}
+		label:   "800 x 600"
+		hue:     "pale-purple"
+		style:   "large"
+	resolution/1024x768:
+		type:    "checkbox"
+		bounds:  {left: 100, top: 187, right: 212, bottom: 197}
+		label:   "1024 x 768"
+		hue:     "pale-purple"
+		style:   "large"
+	resolution/1280x960:
+		type:    "checkbox"
+		bounds:  {left: 272, top: 187, right: 384, bottom: 197}
+		label:   "1280 x 960"
+		hue:     "pale-purple"
+		style:   "large"
+	resolution/1280x720:
+		type:    "checkbox"
+		bounds:  {left: 444, top: 187, right: 556, bottom: 197}
+		label:   "1280 x 720"
+		hue:     "pale-purple"
+		style:   "large"
+	resolution/1366x768:
+		type:    "checkbox"
+		bounds:  {left: 100, top: 220, right: 212, bottom: 230}
+		label:   "1366 x 768"
+		hue:     "pale-purple"
+		style:   "large"
+	resolution/1600x900:
+		type:    "checkbox"
+		bounds:  {left: 272, top: 220, right: 384, bottom: 230}
+		label:   "1600 x 900"
+		hue:     "pale-purple"
+		style:   "large"
+	resolution/1920x1080:
+		type:    "checkbox"
+		bounds:  {left: 444, top: 220, right: 556, bottom: 230}
+		label:   "1920 x 1080"
+		hue:     "pale-purple"
+		style:   "large"
 
 	cancel:
 		type:     "button"
