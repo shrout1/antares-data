@@ -18,7 +18,7 @@ items:
 		style:    "large"
 	options:
 		type:     "button"
-		bounds:   {left: 207, top: 373, right: 427, bottom: 383}
+		bounds:   {left: 207, top: 362, right: 427, bottom: 372}
 		label:    "Options"
 		key:      "O"
 		gamepad:  "LEFT"
@@ -26,7 +26,7 @@ items:
 		style:    "large"
 	quit:
 		type:     "button"
-		bounds:   {left: 207, top: 433, right: 427, bottom: 443}
+		bounds:   {left: 207, top: 440, right: 427, bottom: 450}
 		label:    "Quit"
 		key:      "Q"
 		gamepad:  "BACK"
@@ -34,11 +34,19 @@ items:
 		style:    "large"
 	about-ares:
 		type:     "button"
-		bounds:   {left: 207, top: 399, right: 427, bottom: 409}
+		bounds:   {left: 207, top: 388, right: 427, bottom: 398}
 		label:    "About Ares"
 		key:      "A"
 		gamepad:  "RGHT"
 		hue:      "tan"
+		style:    "large"
+	plugins:
+		type:     "button"
+		bounds:   {left: 207, top: 414, right: 427, bottom: 424}
+		label:    "Plugins"
+		key:      "P"
+		gamepad:  "UP"
+		hue:      "aqua"
 		style:    "large"
 	demo:
 		type:     "button"

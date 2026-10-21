@@ -1,0 +1,64 @@
+fullscreen:  true
+items:
+	play:
+		type:     "button"
+		bounds:   {left: 419, top: 432, right: 559, bottom: 442}
+		label:    "Play"
+		key:      "RTRN"
+		gamepad:  "A"
+		hue:      "pale-green"
+		style:    "large"
+	cancel:
+		type:     "button"
+		bounds:   {left: 80, top: 432, right: 220, bottom: 442}
+		label:    "Cancel"
+		key:      "ESC"
+		gamepad:  "B"
+		hue:      "yellow"
+		style:    "large"
+	save-progress:
+		type:     "button"
+		bounds:   {left: 64, top: 406, right: 214, bottom: 416}
+		label:    "Save Progress"
+		gamepad:  "X"
+		hue:      "aqua"
+		style:    "small"
+	import-progress:
+		type:     "button"
+		bounds:   {left: 245, top: 406, right: 395, bottom: 416}
+		label:    "Import Progress"
+		gamepad:  "Y"
+		hue:      "aqua"
+		style:    "small"
+	reset-progress:
+		type:     "button"
+		bounds:   {left: 426, top: 406, right: 576, bottom: 416}
+		label:    "Reset Progress"
+		gamepad:  "BACK"
+		hue:      "salmon"
+		style:    "small"
+
+	list:
+		type:    "rect"
+		bounds:  {left: 54, top: 70, right: 587, bottom: 284}
+		label:   "Plugins"
+		hue:     "aqua"
+		style:   "large"
+	details:
+		type:    "rect"
+		bounds:  {left: 54, top: 298, right: 587, bottom: 392}
+		hue:     "aqua"
+		style:   "small"
+
+	tablet/left:
+		type:     "picture"
+		bounds:   {left: 2, top: 0, right: 102, bottom: 481}
+		picture:  "gui/tablet/left"
+	tablet/right:
+		type:     "picture"
+		bounds:   {left: 607, top: 0, right: 707, bottom: 480}
+		picture:  "gui/tablet/right"
+	tablet/bottom:
+		type:     "picture"
+		bounds:   {left: 35, top: 456, right: 615, bottom: 556}
+		picture:  "gui/tablet/bottom"
