@@ -64,13 +64,13 @@ items:
 	game-scale/native:
 		type:    "checkbox"
 		bounds:  {left: 100, top: 297, right: 212, bottom: 307}
-		label:   "1:1 Pixels"
+		label:   "Native"
 		hue:     "pale-purple"
 		style:   "large"
 	game-scale/whole:
 		type:    "checkbox"
 		bounds:  {left: 272, top: 297, right: 384, bottom: 307}
-		label:   "Whole Scale"
+		label:   "Whole"
 		hue:     "pale-purple"
 		style:   "large"
 	game-scale/fill:
