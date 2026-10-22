@@ -2,8 +2,14 @@ fullscreen:  true
 items:
 	fullscreen:
 		type:    "checkbox"
-		bounds:  {left: 100, top: 111, right: 300, bottom: 121}
+		bounds:  {left: 100, top: 111, right: 212, bottom: 121}
 		label:   "Fullscreen"
+		hue:     "pale-purple"
+		style:   "large"
+	windowed:
+		type:    "checkbox"
+		bounds:  {left: 272, top: 111, right: 384, bottom: 121}
+		label:   "Windowed"
 		hue:     "pale-purple"
 		style:   "large"
 	resolution/fill:
