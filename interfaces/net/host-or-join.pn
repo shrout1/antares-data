@@ -1,0 +1,50 @@
+fullscreen:  true
+items:
+	join:
+		type:     "button"
+		bounds:   {left: 227, top: 298, right: 407, bottom: 308}
+		label:    "Join"
+		key:      "J"
+		gamepad:  "X"
+		hue:      "aqua"
+		style:    "large"
+	host:
+		type:     "button"
+		bounds:   {left: 227, top: 329, right: 407, bottom: 339}
+		label:    "Host"
+		key:      "H"
+		gamepad:  "A"
+		hue:      "tan"
+		style:    "large"
+	cancel:
+		type:     "button"
+		bounds:   {left: 227, top: 413, right: 407, bottom: 423}
+		label:    "Cancel"
+		key:      "ESC"
+		gamepad:  "B"
+		hue:      "gold"
+		style:    "large"
+
+	host-or-join:
+		type:    "rect"
+		bounds:  {left: 199, top: 280, right: 439, bottom: 440}
+		label:   "Host or Join"
+		hue:     "aqua"
+		style:   "large"
+
+	main/left:
+		type:     "picture"
+		bounds:   {left: 0, top: 245, right: 178, bottom: 471}
+		picture:  "gui/main/left"
+	main/top:
+		type:     "picture"
+		bounds:   {left: 0, top: 0, right: 640, bottom: 245}
+		picture:  "gui/main/top"
+	main/right:
+		type:     "picture"
+		bounds:   {left: 460, top: 245, right: 640, bottom: 471}
+		picture:  "gui/main/right"
+	main/bottom:
+		type:     "picture"
+		bounds:   {left: 0, top: 456, right: 640, bottom: 480}
+		picture:  "gui/main/bottom"

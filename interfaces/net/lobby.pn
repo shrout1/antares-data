@@ -1,0 +1,151 @@
+fullscreen:  true
+items:
+	begin:
+		type:     "button"
+		bounds:   {left: 399, top: 435, right: 539, bottom: 445}
+		label:    "Begin"
+		key:      "ENTR"
+		gamepad:  "A"
+		hue:      "pale-green"
+		style:    "small"
+	cancel:
+		type:     "button"
+		bounds:   {left: 100, top: 435, right: 240, bottom: 445}
+		label:    "Cancel"
+		key:      "ESC"
+		gamepad:  "B"
+		hue:      "yellow"
+		style:    "small"
+	previous:
+		type:     "button"
+		bounds:   {left: 392, top: 68, right: 580, bottom: 78}
+		label:    "Previous"
+		key:      "PGUP"
+		gamepad:  "LEFT"
+		hue:      "aqua"
+		style:    "small"
+	next:
+		type:     "button"
+		bounds:   {left: 392, top: 95, right: 580, bottom: 105}
+		label:    "Next"
+		key:      "PGDN"
+		gamepad:  "RGHT"
+		hue:      "aqua"
+		style:    "small"
+	level:
+		type:    "rect"
+		bounds:  {left: 56, top: 68, right: 376, bottom: 133}
+		hue:     "aqua"
+		style:   "small"
+
+	send-text:
+		type:     "button"
+		bounds:   {left: 360, top: 245, right: 580, bottom: 255}
+		label:    "Send Text"
+		key:      "RTRN"
+		hue:      "green"
+		style:    "small"
+	enter-text:
+		type:    "rect"
+		bounds:  {left: 360, top: 203, right: 580, bottom: 229}
+		label:   "Enter Text"
+		hue:     "green"
+		style:   "small"
+	messages:
+		type:    "rect"
+		bounds:  {left: 56, top: 184, right: 336, bottom: 340}
+		hue:     "green"
+		style:   "small"
+	decrease:
+		type:     "button"
+		bounds:   {left: 480, top: 324, right: 573, bottom: 334}
+		label:    "Decrease"
+		key:      "F14"
+		hue:      "green"
+		style:    "small"
+	increase:
+		type:     "button"
+		bounds:   {left: 480, top: 295, right: 573, bottom: 305}
+		label:    "Increase"
+		key:      "F15"
+		hue:      "green"
+		style:    "small"
+	lag:
+		type:    "rect"
+		bounds:  {left: 369, top: 295, right: 466, bottom: 334}
+		hue:     "green"
+		style:   "small"
+
+	next-species:
+		type:     "button"
+		bounds:   {left: 400, top: 400, right: 580, bottom: 410}
+		label:    "Next Species"
+		key:      "F2"
+		hue:      "salmon"
+		style:    "small"
+	previous-species:
+		type:     "button"
+		bounds:   {left: 400, top: 374, right: 580, bottom: 384}
+		label:    "Previous Species"
+		key:      "F1"
+		hue:      "salmon"
+		style:    "small"
+	species:
+		type:    "rect"
+		bounds:  {left: 215, top: 374, right: 384, bottom: 410}
+		hue:     "salmon"
+		style:   "small"
+	color:
+		type:     "button"
+		bounds:   {left: 56, top: 397, right: 183, bottom: 407}
+		label:    "Color"
+		hue:      "gray"
+		style:    "small"
+	select-color:
+		type:    "rect"
+		bounds:  {left: 47, top: 386, right: 192, bottom: 419}
+		label:   "Select Color"
+		hue:     "gray"
+		style:   "small"
+
+	lag-setting:
+		type:    "rect"
+		bounds:  {left: 360, top: 289, right: 580, bottom: 340}
+		label:   "Lag Setting"
+		hue:     "green"
+		style:   "small"
+	communications:
+		type:    "rect"
+		bounds:  {left: 47, top: 175, right: 594, bottom: 352}
+		label:   "Communications"
+		hue:     "green"
+		style:   "small"
+	species-box:
+		type:    "rect"
+		bounds:  {left: 206, top: 365, right: 594, bottom: 419}
+		hue:     "salmon"
+		style:   "small"
+
+	tablet/left:
+		type:     "picture"
+		bounds:   {left: 2, top: 0, right: 102, bottom: 481}
+		picture:  "gui/tablet/left"
+	tablet/top:
+		type:     "picture"
+		bounds:   {left: 35, top: 0, right: 615, bottom: 100}
+		picture:  "gui/tablet/top"
+	tablet/right:
+		type:     "picture"
+		bounds:   {left: 607, top: 0, right: 707, bottom: 480}
+		picture:  "gui/tablet/right"
+	tablet/bottom:
+		type:     "picture"
+		bounds:   {left: 35, top: 456, right: 615, bottom: 556}
+		picture:  "gui/tablet/bottom"
+
+	select-level:
+		type:    "rect"
+		bounds:  {left: 47, top: 60, right: 594, bottom: 141}
+		label:   "Select Level"
+		hue:     "aqua"
+		style:   "small"

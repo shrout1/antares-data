@@ -1,0 +1,42 @@
+fullscreen:  true
+items:
+	cancel:
+		type:     "button"
+		bounds:   {left: 211, top: 422, right: 429, bottom: 432}
+		label:    "Cancel"
+		key:      "ESC"
+		gamepad:  "B"
+		hue:      "yellow"
+		style:    "large"
+	join:
+		type:     "button"
+		bounds:   {left: 211, top: 242, right: 430, bottom: 252}
+		label:    "Join"
+		key:      "RTRN"
+		gamepad:  "A"
+		hue:      "tan"
+		style:    "large"
+
+	address:
+		type:    "rect"
+		bounds:  {left: 171, top: 152, right: 470, bottom: 172}
+		label:   "Host Address"
+		hue:     "tan"
+		style:   "large"
+
+	tablet/left:
+		type:     "picture"
+		bounds:   {left: 2, top: 0, right: 102, bottom: 481}
+		picture:  "gui/tablet/left"
+	tablet/top:
+		type:     "picture"
+		bounds:   {left: 35, top: 0, right: 615, bottom: 100}
+		picture:  "gui/tablet/top"
+	tablet/right:
+		type:     "picture"
+		bounds:   {left: 607, top: 0, right: 707, bottom: 480}
+		picture:  "gui/tablet/right"
+	tablet/bottom:
+		type:     "picture"
+		bounds:   {left: 35, top: 456, right: 615, bottom: 556}
+		picture:  "gui/tablet/bottom"
