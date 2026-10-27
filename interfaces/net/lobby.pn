@@ -60,14 +60,12 @@ items:
 		type:     "button"
 		bounds:   {left: 480, top: 324, right: 573, bottom: 334}
 		label:    "Decrease"
-		key:      "F14"
 		hue:      "green"
 		style:    "small"
 	increase:
 		type:     "button"
 		bounds:   {left: 480, top: 295, right: 573, bottom: 305}
 		label:    "Increase"
-		key:      "F15"
 		hue:      "green"
 		style:    "small"
 	lag:
@@ -95,12 +93,6 @@ items:
 		bounds:  {left: 215, top: 374, right: 384, bottom: 410}
 		hue:     "salmon"
 		style:   "small"
-	color:
-		type:     "button"
-		bounds:   {left: 56, top: 397, right: 183, bottom: 407}
-		label:    "Color"
-		hue:      "gray"
-		style:    "small"
 	select-color:
 		type:    "rect"
 		bounds:  {left: 47, top: 386, right: 192, bottom: 419}
