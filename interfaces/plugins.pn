@@ -16,23 +16,9 @@ items:
 		gamepad:  "B"
 		hue:      "yellow"
 		style:    "large"
-	save-progress:
-		type:     "button"
-		bounds:   {left: 64, top: 406, right: 214, bottom: 416}
-		label:    "Save Progress"
-		gamepad:  "X"
-		hue:      "aqua"
-		style:    "small"
-	import-progress:
-		type:     "button"
-		bounds:   {left: 245, top: 406, right: 395, bottom: 416}
-		label:    "Import Progress"
-		gamepad:  "Y"
-		hue:      "aqua"
-		style:    "small"
 	reset-progress:
 		type:     "button"
-		bounds:   {left: 426, top: 406, right: 576, bottom: 416}
+		bounds:   {left: 245, top: 406, right: 395, bottom: 416}
 		label:    "Reset Progress"
 		gamepad:  "BACK"
 		hue:      "salmon"
